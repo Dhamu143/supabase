@@ -592,4 +592,4 @@ module.exports = withMDX({
       },
     ]
   },
-})
+});

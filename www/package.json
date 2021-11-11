@@ -4,10 +4,10 @@
   "description": "Supabase main website",
   "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
+    "dev": "node init && next",
+    "build": "node init && next build",
     "export": "next export",
-    "start": "next start",
+    "start": "node init && next start",
     "typecheck": "tsc",
     "prettier": "prettier --write \"./{pages,components,lib,stores,styles,tests}/**/*.{ts,tsx,md,js,jsx,json}\""
   },
