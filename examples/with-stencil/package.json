@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "description": "Welcome to the Stencil & Supabase starter App. You can use this starter to build entire apps all with web components using Stencil & Supabase",
   "scripts": {
-    "build": "stencil build",
-    "start": "stencil build --dev --watch --serve",
+    "build": "node init && stencil build",
+    "start": "node init && stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
@@ -27,7 +27,7 @@
     "jest-cli": "26.0.1"
   },
   "license": "MIT",
-  "author": "Ademílson F. Tonato - @ftonato",
+  "author": "Adem\u00edlson F. Tonato - @ftonato",
   "dependencies": {
     "@supabase/supabase-js": "^1.15.1",
     "puppeteer": "^5.2.1"

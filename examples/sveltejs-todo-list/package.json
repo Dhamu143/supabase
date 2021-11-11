@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "snowpack dev --polyfill-node",
-    "build": "snowpack build --polyfill-node",
+    "start": "node init && snowpack dev --polyfill-node",
+    "build": "node init && snowpack build --polyfill-node",
     "test": "NODE_ENV=test DEBUG= jest",
     "test:cy": "NODE_ENV=test cypress run",
     "test:interactive": "NODE_ENV=test cypress open --project .",
